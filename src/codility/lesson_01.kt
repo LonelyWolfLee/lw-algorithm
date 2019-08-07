@@ -1,10 +1,12 @@
 package codility
 
+import utils.checkValue
+
 fun main() {
     println("Lesson 01 : Iterations")
 
     // 1. Binary Gap
-    assert(solutionOfBinaryGap(32)==0)
+    checkValue(solutionOfBinaryGap(32), 0)
 }
 
 fun solutionOfBinaryGap(N: Int): Int {
