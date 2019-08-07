@@ -1,10 +1,10 @@
 package codility
 
 fun main() {
-    assert(solutionBinaryGap(32)==0)
+    assert(solutionOfBinaryGap(32)==0)
 }
 
-fun solutionBinaryGap(N: Int): Int {
+fun solutionOfBinaryGap(N: Int): Int {
 
     val str = Integer.toBinaryString(N)
     val arr = str.split("1").map { seq -> seq.length};
