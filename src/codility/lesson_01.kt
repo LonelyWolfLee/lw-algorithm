@@ -1,6 +1,9 @@
 package codility
 
 fun main() {
+    println("Lesson 01 : Iterations")
+
+    // 1. Binary Gap
     assert(solutionOfBinaryGap(32)==0)
 }
 
