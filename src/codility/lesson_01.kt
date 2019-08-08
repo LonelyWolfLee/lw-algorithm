@@ -9,6 +9,7 @@ fun main() {
     checkValue(solutionOfBinaryGap(32), 0)
 }
 
+// 100%
 fun solutionOfBinaryGap(N: Int): Int {
     val str = Integer.toBinaryString(N)
     val arr = str.split("1").map { it.length}
