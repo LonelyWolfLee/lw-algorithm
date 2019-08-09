@@ -10,11 +10,11 @@ fun main() {
     checkValue(solutionOfFrogJmp(10, 85, 30), 3)
 
     // 2. PermMissingElem
-    checkValue(solutionOfPermMissingElem(arrayOf(2, 3, 1, 5).toIntArray()), 4)
+    checkValue(solutionOfPermMissingElem(intArrayOf(2, 3, 1, 5)), 4)
 
     // 3. TapeEquilibrium
-    checkValue(solutionOfTapeEquilibrium(arrayOf(3, 1, 2, 4, 3).toIntArray()), 1)
-    checkValue(solutionOfTapeEquilibrium(arrayOf(1000, -1000).toIntArray()), 2000)
+    checkValue(solutionOfTapeEquilibrium(intArrayOf(3, 1, 2, 4, 3)), 1)
+    checkValue(solutionOfTapeEquilibrium(intArrayOf(1000, -1000)), 2000)
 }
 
 // 100% O(1)

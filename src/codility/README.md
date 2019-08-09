@@ -48,7 +48,10 @@ GOAL : Check whether array A is a permutation.
 
 ###### 2. [FrogRiverOne](https://app.codility.com/programmers/lessons/4-counting_elements/frog_river_one/)
 
-DIFFICUTY : PAINLESS  
+DIFFICULTY : PAINLESS  
 GOAL : Find the earliest time when a frog can jump to the other side of a river.
 
+###### 3. [MaxCounters](https://app.codility.com/programmers/lessons/4-counting_elements/max_counters/)
 
+DIFFICULTY : RESPECTABLE  
+GOAL : Calculate the values of counters after applying all alternating operations: increase counter by 1; set value of all

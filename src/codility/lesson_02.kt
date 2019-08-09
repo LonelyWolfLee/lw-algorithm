@@ -7,12 +7,12 @@ fun main() {
     println("Lesson 02 : Arrays")
 
     // 1. Odd Occurrences In Array
-    checkValue(solutionOfOddOccurrencesInArray(arrayOf(9, 3, 9, 3, 9, 7, 9).toIntArray()),7)
-    checkValue(solutionOfOddOccurrencesInArray(arrayOf(42).toIntArray()),42)
+    checkValue(solutionOfOddOccurrencesInArray(intArrayOf(9, 3, 9, 3, 9, 7, 9)),7)
+    checkValue(solutionOfOddOccurrencesInArray(intArrayOf(42)),42)
 
     // 2. Cyclic Rotation
-    checkIntArray(solutionOfCyclicRotation(arrayOf(3, 8, 9, 7, 6).toIntArray(), 3), arrayOf(9, 7, 6, 3, 8).toIntArray())
-    checkIntArray(solutionOfCyclicRotation(arrayOf(1, 2, 3, 4).toIntArray(), 4), arrayOf(1, 2, 3, 4).toIntArray())
+    checkIntArray(solutionOfCyclicRotation(intArrayOf(3, 8, 9, 7, 6), 3), intArrayOf(9, 7, 6, 3, 8))
+    checkIntArray(solutionOfCyclicRotation(intArrayOf(1, 2, 3, 4), 4), intArrayOf(1, 2, 3, 4))
 }
 
 // 100%
