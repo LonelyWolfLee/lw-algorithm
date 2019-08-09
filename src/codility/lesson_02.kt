@@ -25,7 +25,7 @@ fun solutionOfOddOccurrencesInArray(A: IntArray): Int {
 //    }
 //    return map.filter { it.value % 2 == 1  }.keys.first()
 
-    // 88% O(N) or O(NlogN)
+    // 88% O(N) or O(N * log(N))
 //    val map = mutableMapOf<Int, Int>()
 //    A.forEach {
 //        if (map.containsKey(it)) map.remove(it)
@@ -33,7 +33,7 @@ fun solutionOfOddOccurrencesInArray(A: IntArray): Int {
 //    }
 //    return map.keys.first()
 
-    // 88% O(N) or O(NlogN)
+    // 88% O(N) or O(N * log(N))
 //    A.sort()
 //    if (A.size == 1) return A[0]
 //    for (i in 0 until A.size-1 step 2) {

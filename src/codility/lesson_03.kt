@@ -25,7 +25,7 @@ fun solutionOfFrogJmp(X: Int, Y: Int, D: Int): Int {
     return if (C == 0) N else N+1
 }
 
-// 100% O(N) or O(NlogN)
+// 100% O(N) or O(N * log(N))
 fun solutionOfPermMissingElem(A: IntArray): Int {
     val actual = A.sum().toBigInteger()
     val expect = ((A.size+1).toBigInteger() * (A.size+2).toBigInteger()).divide(2.toBigInteger())
