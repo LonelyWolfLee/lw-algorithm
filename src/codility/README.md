@@ -33,8 +33,17 @@ GOAL : Count minimal number of jumps from position X to Y.
 DIFFICULTY : PAINLESS  
 GOAL : Find the missing element in a given permutation.
 
-###### 3. [TapeEquilibrium]
+###### 3. [TapeEquilibrium](https://app.codility.com/programmers/lessons/3-time_complexity/tape_equilibrium/)
 
 DIFFICULTY : PAINLESS  
 GOAL : Minimize the value |(A[0] + ... + A[P-1]) - (A[P] + ... + A[N-1])|.
+
+
+### [Lesson 04](https://app.codility.com/programmers/lessons/4-counting_elements/) : Counting Elements
+
+###### 1. [PermCheck](https://app.codility.com/programmers/lessons/4-counting_elements/perm_check/)
+          
+DIFFICULTY : PAINLESS  
+GOAL : Check whether array A is a permutation.
+
 
