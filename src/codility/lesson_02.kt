@@ -1,5 +1,6 @@
 package codility
 
+import utils.checkIntArray
 import utils.checkValue
 
 fun main() {
@@ -8,6 +9,10 @@ fun main() {
     // 1. Odd Occurrences In Array
     checkValue(solutionOfOddOccurrencesInArray(arrayOf(9, 3, 9, 3, 9, 7, 9).toIntArray()),7)
     checkValue(solutionOfOddOccurrencesInArray(arrayOf(42).toIntArray()),42)
+
+    // 2. Cyclic Rotation
+    checkIntArray(solutionOfCyclicRotation(arrayOf(3, 8, 9, 7, 6).toIntArray(), 3), arrayOf(9, 7, 6, 3, 8).toIntArray())
+    checkIntArray(solutionOfCyclicRotation(arrayOf(1, 2, 3, 4).toIntArray(), 4), arrayOf(1, 2, 3, 4).toIntArray())
 }
 
 // 100%
@@ -38,4 +43,12 @@ fun solutionOfOddOccurrencesInArray(A: IntArray): Int {
 
     // 100%
     return A.reduce { acc, i -> acc xor i }
+}
+
+// 100%
+fun solutionOfCyclicRotation(A: IntArray, K: Int): IntArray {
+    if (A.isEmpty()) return A
+    val cnt = K % A.size
+    return if (cnt == 0) A else (A.takeLast(cnt) + A.dropLast(cnt)).toIntArray()
+
 }
