@@ -7,6 +7,7 @@ fun <T> checkValue(actual: T, expected: T) {
 }
 
 fun checkIntArray(actual: IntArray, expected: IntArray) {
+    if (actual.size != expected.size) throw Throwable("Expected value: ${expected.asList()}, Actual value: ${actual.asList()}")
     actual.forEachIndexed { index, i ->
         if (i != expected[index])
             throw Throwable("Expected value: ${expected.asList()}, Actual value: ${actual.asList()}")

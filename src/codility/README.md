@@ -68,3 +68,9 @@ GOAL : Find the smallest positive integer that does not occur in a given sequenc
 
 DIFFICULTY : PAINLESS  
 GOAL : Count the number of passing cars on the road.
+
+###### 2. [GenomicRangeQuery](https://app.codility.com/programmers/lessons/5-prefix_sums/genomic_range_query/)
+
+DIFFICULTY : RESPECTABLE  
+GOAL : Find the minimal nucleotide from a range of sequence DNA.
+
