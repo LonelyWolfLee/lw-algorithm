@@ -60,3 +60,11 @@ GOAL : Calculate the values of counters after applying all alternating operation
 
 DIFFICULTY : RESPECTABLE
 GOAL : Find the smallest positive integer that does not occur in a given sequence.
+
+
+### [Lesson 05](https://app.codility.com/programmers/lessons/5-prefix_sums/) : Prefix Sums
+
+###### 1. [PassingCars](https://app.codility.com/programmers/lessons/5-prefix_sums/passing_cars/)
+
+DIFFICULTY : PAINLESS  
+GOAL : Count the number of passing cars on the road.
