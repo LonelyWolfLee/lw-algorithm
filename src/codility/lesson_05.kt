@@ -23,13 +23,11 @@ fun solutionOfPassingCars(A: IntArray): Int {
         index, i -> if (i == 0) arrP.add(index)
     }
 
-    var handledP = 0
     var totalPair = 0
 
-    for (i in arrP.size-1 downTo 0) {
+    for ((handledP, i) in (arrP.size-1 downTo 0).withIndex()) {
         totalPair += (total-1) - arrP[i] - handledP
         if (totalPair > 1000000000) return -1
-        handledP++
     }
 
     return totalPair
