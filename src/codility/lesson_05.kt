@@ -13,7 +13,7 @@ fun main() {
     checkValue(solutionOfPassingCars(intArrayOf(0,1)), 1)
 }
 
-// 100%
+// 100% O(N)
 fun solutionOfPassingCars(A: IntArray): Int {
     val total = A.size
     if (total == 1) return 0
