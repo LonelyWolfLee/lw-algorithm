@@ -3,7 +3,7 @@
 ## Problem
 Vestigium means "trace" in Latin. In this problem we work with Latin squares and matrix traces.
 
-The trace of a square matrix is the sum of the values on the `google-codejam`.`2020`.QR.googlecodejam.y2020.qr.main diagonal (which runs from the upper left to the lower right).
+The trace of a square matrix is the sum of the values on the `google-codejam`.`2020`.QR.googlecodejam.y2020.`1c`.main diagonal (which runs from the upper left to the lower right).
 
 An N-by-N square matrix is a Latin square if each cell contains one of N different values, and no value is repeated within a row or a column. In this problem, we will deal only with "natural Latin squares" in which the N values are the integers between 1 and N.
 
@@ -51,7 +51,7 @@ Case #2: 9 4 4
 Case #3: 8 0 2
 ```
 
-In Sample Case #1, the input is a natural Latin square, which means no row or column has repeated elements. All four values in the googlecodejam.y2020.qr.main diagonal are 1, and so the trace (their sum) is 4.
+In Sample Case #1, the input is a natural Latin square, which means no row or column has repeated elements. All four values in the googlecodejam.y2020.`1c`.main diagonal are 1, and so the trace (their sum) is 4.
 
 In Sample Case #2, all rows and columns have repeated elements. Notice that each row or column with repeated elements is counted only once regardless of the number of elements that are repeated or how often they are repeated within the row or column. In addition, notice that some integers in the range 1 through N may be absent from the input.
 
